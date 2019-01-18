@@ -68,7 +68,7 @@ class ViewController: UIViewController,URLSessionDelegate {
     
     @IBAction func btnupdate(_ sender: Any) {
         
-        let str = "http://localhost/Ankit_Webservice/update.php?sid=\(txtid.text)&fname=\(txtfn.text!)&age=\(txtag.text!)";
+        let str = "http://localhost/Ankit_Webservice/update.php?sid=\(txtid.text!)&fname=\(txtfn.text!)&age=\(txtag.text!)";
         
         let url = URL(string: str);
         
@@ -88,7 +88,7 @@ class ViewController: UIViewController,URLSessionDelegate {
 
     @IBAction func btndelete(_ sender: Any) {
         
-        let str = "http://localhost/Ankit_Webservice/delete.php?sid=\(txtid.text)&fname=\(txtfn.text!)&age=\(txtag.text!)";
+        let str = "http://localhost/Ankit_Webservice/delete.php?sid=\(txtid.text!)&fname=\(txtfn.text!)&age=\(txtag.text!)";
         
         let url = URL(string: str);
         
